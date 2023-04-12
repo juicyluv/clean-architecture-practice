@@ -1,0 +1,14 @@
+app:
+  name: 'clean-arch'
+  version: '1.0.0'
+
+http:
+  port: '8080'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: '1.0.0'
+
+postgres:
+  url: postgres://postgres:password@localhost:5432/test_db
+  pool_max: 2
